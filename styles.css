@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Great+Vibes&family=Oleo+Script+Swash+Caps:wght@400;700&family=Style+Script&display=swap');
+
+body {
+  background-color: white;
+}
+
+.navbar {
+  background-color: #e8a6b6ff;
+  width: 800px;
+  height: 40px;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 3px;
+  z-index: 9999;
+}
+
+.navbar a {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar a:hover {
+  text-shadow: 2px 2px 8px white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 6500px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  display: flex;
+}
+
+.container div {
+  width: 800px;
+  height: 1200px;
+  margin-bottom: 10px;
+  background-image: url(https://img.freepik.com/free-vector/hand-drawn-floral-wallpaper_52683-67169.jpg?w=740&t=st=1660488549~exp=1660489149~hmac=f95194f52730c7a6351afe6d13f240aa999a9f6f8667f363e7dd6f820f0bd7f5);
+  background-size: contain;
+  /* box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.138); */
+  /* border: 1px solid green; */
+}
+
+#bunga {
+  width: 700px;
+  height: 700px;
+  margin-top: 0 auto;
+  position: absolute;
+  padding-top: 150px;
+  padding-left: 50px;
+  z-index: 10;
+}
+
+.lingkar_bunga .mempelai {
+  background-image: url(https://images.pexels.com/photos/10792773/pexels-photo-10792773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-position: center;
+  height: 600px;
+  width: 600px;
+  background-size: cover;
+  border-radius: 360px;
+  z-index: 8;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 110px;
+
+  z-index: 5;
+}
+
+.container .utama {
+  position: relative;
+}
+
+.utama h1 {
+  color: #374a40;
+  font-family: 'Great Vibes', cursive;
+  font-size: 110px;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 210px;
+}
+
+#nama_mempelai {
+  color: #374a40;
+  font-family: 'Great Vibes', cursive;
+  font-size: 80px;
+  position: absolute;
+  margin-left: 200px;
+  bottom: 250px;
+}
+
+#hari {
+  color: #282b2a;
+  font-family: 'Courgette', cursive;
+  font-size: 40px;
+  position: absolute;
+  margin-left: 160px;
+  bottom: 180px;
+}
+
+.resepsi h1,
+.akad h1 {
+  color: #374a40;
+  font-family: 'Great Vibes', cursive;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 230px;
+}
+
+.resepsi p {
+  color: #282b2a;
+  font-family: 'Courgette', cursive;
+  font-size: 50px;
+  margin-left: 40px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.akad p {
+  color: #282b2a;
+  font-family: 'Courgette', cursive;
+  font-size: 50px;
+  margin-left: 20px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.resepsi p .satu,
+.akad p .satu {
+  color: #282b2a;
+  font-family: 'Courgette', cursive;
+  font-size: 150px;
+  bottom: 50px;
+}
+
+.resepsi p .dua,
+.akad p .dua {
+  color: #282b2a;
+  font-family: 'Courgette', cursive;
+  font-size: 30px;
+  bottom: 50px;
+}
+
+.resepsi .tiga,
+.akad .tiga {
+  color: #282b2a;
+  font-family: 'Courgette', cursive;
+  font-size: 40px;
+  bottom: 50px;
+  line-height: 50px;
+}
+
+.formulir {
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+.formulir form {
+  background-color: #a9a9a94f;
+  margin: 0 auto;
+  width: 500px;
+  height: 600px;
+  border-radius: 8px;
+  padding: 60px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.487);
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  display: flex;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  width: 370px;
+}
+
+textarea {
+  display: block;
+  width: 370px;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  resize: none;
+}
+
+button {
+  display: block;
+  width: 400px;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.container .bukuTamu {
+  display: flex;
+  flex-direction: column;
+}
+
+.bukuTamu h1 {
+  display: flex;
+  color: #374a40;
+  font-family: 'Great Vibes', cursive;
+  font-size: 100px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.container .galeri {
+  display: flex;
+  flex-direction: column;
+}
+
+.galeri h1 {
+  color: #374a40;
+  font-family: 'Great Vibes', cursive;
+  font-size: 100px;
+  text-align: center;
+  justify-content: center;
+  padding: 70px;
+}
+
+.galeri .album {
+  width: 770px;
+  height: 850px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.album img {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  margin: 10px;
+  border-radius: 3px;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.397);
+}
+
+.container .map {
+  display: flex;
+  flex-direction: column;
+}
+
+.map h1 {
+  color: #374a40;
+  font-family: 'Great Vibes', cursive;
+  font-size: 100px;
+  text-align: center;
+  justify-content: center;
+  padding: 70px;
+}
+
+.map iframe {
+  width: 700px;
+  height: 700px;
+  margin: 0 auto;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.212);
+  border-radius: 3px;
+  justify-content: center;
+}
